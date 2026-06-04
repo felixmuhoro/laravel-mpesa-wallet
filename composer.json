@@ -1,0 +1,32 @@
+{
+    "name": "felixmuhoro/laravel-mpesa-wallet",
+    "description": "Virtual wallet powered by M-Pesa for Laravel",
+    "keywords": [
+        "laravel",
+        "mpesa",
+        "kenya",
+        "safaricom"
+    ],
+    "homepage": "https://github.com/felixmuhoro/laravel-mpesa-wallet",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Felix Muhoro",
+            "email": "hi@felixmuhoro.dev",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^8.1",
+        "felixmuhoro/laravel-mpesa": "^1.2",
+        "illuminate/support": "^10.0|^11.0|^12.0|^13.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "FelixMuhoro\\": "src/"
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
